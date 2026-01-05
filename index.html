@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to BookStore | مكتبة الكتب</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background-color: #0f084b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+            border: 2px solid #c2e7d9;
+        }
+
+        .logo-area {
+            margin-bottom: 40px;
+        }
+
+        .logo-area h1 {
+            font-size: 2.5rem;
+            color: #c2e7d9;
+            margin-bottom: 10px;
+        }
+
+        .logo-area p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .split-box {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .lang-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .lang-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+
+        .btn-main {
+            background-color: #c2e7d9;
+            color: #0f084b;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            display: inline-block;
+            min-width: 180px;
+        }
+
+        .btn-main:hover {
+            background-color: white;
+        }
+
+        .auth-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .btn-outline {
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+            padding: 8px 15px;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .btn-outline:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .split-box {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo-area">
+            <h1><i class="fa-solid fa-book-open"></i> BookStore</h1>
+            <p>Welcome to your favorite book destination</p>
+        </div>
+
+        <div class="split-box">
+            <div class="lang-section">
+                <div class="lang-title">English</div>
+
+                <a href="HTML/home-en.html" class="btn-main">
+                    Shop Now <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <div class="auth-buttons">
+                    <a href="HTML/login-en.html" class="btn-outline">
+                        <i class="fa-solid fa-right-to-bracket"></i> Log In
+                    </a>
+                    <a href="HTML/signup-en.html" class="btn-outline">
+                        <i class="fa-solid fa-user-plus"></i> Register
+                    </a>
+                </div>
+            </div>
+
+            <div class="lang-section">
+                <div class="lang-title">العربية</div>
+
+                <a href="HTML/Arabic/home-ar.html" class="btn-main">
+                    تسوق الآن <i class="fa-solid fa-arrow-left"></i>
+                </a>
+
+                <div class="auth-buttons">
+                    <a href="HTML/Arabic/login-ar.html" class="btn-outline">
+                        <i class="fa-solid fa-right-to-bracket"></i> دخول
+                    </a>
+                    <a href="HTML/Arabic/signup-ar.html" class="btn-outline">
+                        <i class="fa-solid fa-user-plus"></i> حساب جديد
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

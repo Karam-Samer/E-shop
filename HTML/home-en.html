@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store - Home</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="home-en.html" class="logo">BookStore</a>
+
+            <form class="search-bar" action="" method="get">
+                <input type="text" placeholder="Search for books..." name="search">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="home-en.html" class="active">Home</a></li>
+                    <li><a href="#products">Shop</a></li>
+                    <li><a href="about-en.html">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="utility-nav">
+                <a href="cart-en.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+                <a href="login-en.html" class="btn-login">Login</a>
+                <a href="signup-en.html" class="btn-register">Register</a>
+                <a href="Arabic/home-ar.html" class="lang-switch">العربية</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to BookStore</h1>
+                <p>Discover your next favorite book today.</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="container">
+                <h2>Featured Books</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="../BookCovers/book_cover_the_patient.jpg" alt="Book 1">
+                        <h3>The Patient</h3>
+                        <span class="price">$12.8</span>
+                        <a href="product-patient-en.html" class="btn">View Details</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="../BookCovers/book_cover_rich_dad_poor_dad.jpg" alt="Book 2">
+                        <h3>Rich Dad Poor Dad</h3>
+                        <span class="price">$8.5</span>
+                        <a href="product-rich-en.html" class="btn">View Details</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="../BookCovers/book_cover_land_of_zikola.jpg" alt="Book 3">
+                        <h3>Land of Zikola</h3>
+                        <span class="price">$6.5</span>
+                        <a href="product-zikola-en.html" class="btn">View Details</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="../BookCovers/غلاف_كتاب_فن_اللامبالاة.jpg" alt="Book 4">
+                        <h3>The Subtle Art</h3>
+                        <span class="price">$21.3</span>
+                        <a href="product-subtle-en.html" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 BookStore. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

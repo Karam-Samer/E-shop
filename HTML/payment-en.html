@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store - Checkout</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="home-en.html" class="logo">BookStore</a>
+
+            <a href="cart-en.html" style="color: white; font-weight: bold;"><i class="fa-solid fa-arrow-left"></i> Back
+                to Cart</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="page-title">Checkout</h1>
+            <form class="checkout-form" action="">
+                <h3><i class="fa-solid fa-truck"></i> Shipping Information</h3>
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" required>
+                </div>
+                <div class="form-group">
+                    <label>Address</label>
+                    <input type="text" required>
+                </div>
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="tel" required>
+                </div>
+
+                <div style="margin: 30px 0;"></div>
+
+                <h3><i class="fa-solid fa-credit-card"></i> Payment Method</h3>
+                <div class="payment-methods">
+                    <label class="radio-label">
+                        <input type="radio" name="payment" value="cash" checked>
+                        <span><i class="fa-solid fa-money-bill"></i> Pay Cash</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="payment" value="savings">
+                        <span><i class="fa-solid fa-wallet"></i> Pay from Savings</span>
+                    </label>
+                </div>
+
+                <button type="submit" class="btn" style="width: 100%; margin-top: 30px;">Place Order ($19.3)</button>
+
+                <div style="text-align: center; margin-top: 15px;">
+                    <a href="payment-failed-en.html"
+                        style="color: red; font-size: 0.9em; text-decoration: underline;">(Simulate Failure)</a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 BookStore. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

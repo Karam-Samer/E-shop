@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>تسجيل حساب جديد</title>
+  <link rel="stylesheet" href="../../CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <a href="home-ar.html" class="logo">مكتبة الكتب</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav class="main-nav">
+        <ul class="nav-links">
+          <li><a href="home-ar.html">الرئيسية</a></li>
+          <li><a href="home-ar.html#products">تسوق</a></li>
+          <li><a href="about-ar.html">عننا</a></li>
+        </ul>
+      </nav>
+      <div class="utility-nav">
+        <a href="cart-ar.html"><i class="fa-solid fa-cart-shopping"></i> السلة</a>
+        <a href="login-ar.html" class="btn-login">دخول</a>
+        <a href="signup-ar.html" class="btn-register">اعمل حساب</a>
+        <a href="../signup-en.html" class="lang-switch">English</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <h1 class="page-title">حساب جديد</h1>
+    </div>
+    <div class="form-container" style="max-width: 600px;">
+      <form action="login-ar.html">
+        <div class="name-inputs">
+          <input type="text" placeholder="الاسم الأول" name="firstName" required>
+          <div class="vertical-line"></div>
+          <input type="text" placeholder="اسم العائلة" name="lastName" required>
+        </div>
+        <div class="input-with-icon">
+          <input type="text" placeholder="اسم المستخدم" name="username" required>
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="input-with-icon">
+          <input type="email" placeholder="البريد الإلكتروني" name="email" required>
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="input-with-icon">
+          <input type="tel" placeholder="رقم الهاتف" name="phone" required>
+          <i class="fa-solid fa-phone"></i>
+        </div>
+        <div class="input-with-icon">
+          <input type="password" placeholder="كلمة المرور" name="password" required>
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <div class="input-with-icon">
+          <input type="password" placeholder="تأكيد كلمة المرور" name="confirmPassword" required>
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <button type="submit" class="btn" style="width:100%">تسجيل</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <p>لديك حساب بالفعل؟ <a href="login-ar.html" style="text-decoration: underline;">سجل الدخول</a></p>
+      <p style="margin-top: 10px;">&copy; 2025 مكتبة الكتب.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

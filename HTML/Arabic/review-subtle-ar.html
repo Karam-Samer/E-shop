@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتبة الكتب - اكتب رأيك</title>
+    <link rel="stylesheet" href="../../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="home-ar.html" class="logo">مكتبة الكتب</a>
+
+            <form class="search-bar" action="" method="get">
+                <input type="text" placeholder="ابحث عن كتاب..." name="search">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="home-ar.html">الرئيسية</a></li>
+                    <li><a href="home-ar.html#products">تسوق</a></li>
+                    <li><a href="about-ar.html">عننا</a></li>
+                </ul>
+            </nav>
+            <div class="utility-nav">
+                <a href="cart-ar.html"><i class="fa-solid fa-cart-shopping"></i> السلة</a>
+                <a href="login-ar.html" class="btn-login">دخول</a>
+                <a href="signup-ar.html" class="btn-register">اعمل حساب</a>
+                <a href="../review-subtle-en.html" class="lang-switch">English</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="form-container" style="max-width: 600px;">
+                <h1 class="page-title">اكتب رأيك</h1>
+                <h3>فن اللامبالاة</h3>
+                <form action="product-subtle-ar.html">
+                    <div class="form-group full-width">
+                        <label>تقييمك</label>
+                        <div class="star-rating">
+                            <input type="radio" id="star5" name="rating" value="5" /><label for="star5"
+                                title="5 نجوم"><i class="fa-solid fa-star"></i></label>
+                            <input type="radio" id="star4" name="rating" value="4" /><label for="star4"
+                                title="4 نجوم"><i class="fa-solid fa-star"></i></label>
+                            <input type="radio" id="star3" name="rating" value="3" /><label for="star3"
+                                title="3 نجوم"><i class="fa-solid fa-star"></i></label>
+                            <input type="radio" id="star2" name="rating" value="2" /><label for="star2"
+                                title="2 نجمتين"><i class="fa-solid fa-star"></i></label>
+                            <input type="radio" id="star1" name="rating" value="1" /><label for="star1"
+                                title="نجمة واحدة"><i class="fa-solid fa-star"></i></label>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>الاسم</label>
+                        <input type="text" placeholder="الاسم" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>عنوان التقييم</label>
+                        <input type="text" placeholder="عنوان التقييم" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>رأيك</label>
+                        <textarea rows="5" placeholder="اكتب رأيك هنا..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">ارسال</button>
+                    <a href="product-subtle-ar.html"
+                        style="display: block; text-align: center; margin-top: 15px; color: #555;">الغاء</a>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 مكتبة الكتب. جميع الحقوق محفوظة.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
