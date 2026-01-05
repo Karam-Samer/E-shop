@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Patient - BookStore</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="home-en.html" class="logo">BookStore</a>
+
+            <form class="search-bar" action="" method="get">
+                <input type="text" placeholder="Search for books..." name="search">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="home-en.html">Home</a></li>
+                    <li><a href="home-en.html#products" class="active">Shop</a></li>
+                    <li><a href="about-en.html">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="utility-nav">
+                <a href="cart-en.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+                <a href="login-en.html" class="btn-login">Login</a>
+                <a href="signup-en.html" class="btn-register">Register</a>
+                <a href="Arabic/product-patient-ar.html" class="lang-switch">العربية</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="product-details">
+                <div class="product-image">
+                    <img src="../photos/22-385.jpg" alt="The Patient">
+                </div>
+                <div class="product-info">
+                    <h1>The Patient</h1>
+                    <span class="price">$12.8</span>
+                    <p>A gripping thriller about a mysterious patient who refuses to speak. A story full of twists and
+                        psychological depth that will keep you on the edge of your seat.</p>
+                    <p><strong>Genre:</strong> Thriller / Horror</p>
+                    <div
+                        style="display: flex; flex-direction: row; align-items: center; gap: 10px; margin-top: 20px; width: 100%;">
+                        <a href="review-patient-en.html" class="btn"
+                            style="background-color: #ffc107; color: #333; flex: 1; text-align: center; padding: 10px 0;">Write
+                            a Review</a>
+                        <a href="cart-en.html" class="btn" style="flex: 1; text-align: center; padding: 10px 0;">Add to
+                            Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 BookStore. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

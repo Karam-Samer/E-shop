@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <a href="home-en.html" class="logo">BookStore</a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="home-en.html">Home</a></li>
+                    <li><a href="home-en.html#products">Shop</a></li>
+                    <li><a href="about-en.html">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="utility-nav">
+                <a href="cart-en.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+                <a href="login-en.html" class="btn-login">Login</a>
+                <a href="signup-en.html" class="btn-register">Register</a>
+                <a href="Arabic/signup-ar.html" class="lang-switch">العربية</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="page-title">Register</h1>
+        </div>
+        <div class="form-container" style="max-width: 600px;">
+            <form action="login-en.html">
+                <div class="name-inputs">
+                    <input type="text" placeholder="First Name" name="firstName" required>
+                    <div class="vertical-line"></div>
+                    <input type="text" placeholder="Last Name" name="lastName" required>
+                </div>
+                <div class="input-with-icon">
+                    <input type="text" placeholder="Username" name="username" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-with-icon">
+                    <input type="email" placeholder="Email" name="email" required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input-with-icon">
+                    <input type="tel" placeholder="Phone" name="phone" required>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="input-with-icon">
+                    <input type="password" placeholder="Password" name="password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="input-with-icon">
+                    <input type="password" placeholder="Confirm Password" name="confirmPassword" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <button type="submit" class="btn" style="width:100%">Register</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Already have an account? <a href="login-en.html" style="text-decoration: underline;">Login</a></p>
+            <p style="margin-top: 10px;">&copy; 2025 BookStore.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

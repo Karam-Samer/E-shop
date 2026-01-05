@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store - Write a Review</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="home-en.html" class="logo">BookStore</a>
+
+            <form class="search-bar" action="" method="get">
+                <input type="text" placeholder="Search for books..." name="search">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="home-en.html">Home</a></li>
+                    <li><a href="home-en.html#products">Shop</a></li>
+                    <li><a href="about-en.html">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="utility-nav">
+                <a href="cart-en.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+                <a href="login-en.html" class="btn-login">Login</a>
+                <a href="signup-en.html" class="btn-register">Register</a>
+                <a href="Arabic/review-patient-ar.html" class="lang-switch">العربية</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="form-container" style="max-width: 600px;">
+                <h1 class="page-title">Write a Review</h1>
+                <h3>The Patient</h3>
+                <form action="product-patient-en.html">
+                    <div class="form-group full-width">
+                        <label>Your Rating</label>
+                        <div class="star-rating">
+                            <input type="radio" id="star5" name="rating" value="5" /><label for="star5"
+                                title="5 stars"><i class="fa-solid fa-star"></i></label>
+                            <input type="radio" id="star4" name="rating" value="4" /><label for="star4"
+                                title="4 stars"><i class="fa-solid fa-star"></i></label>
+                            <input type="radio" id="star3" name="rating" value="3" /><label for="star3"
+                                title="3 stars"><i class="fa-solid fa-star"></i></label>
+                            <input type="radio" id="star2" name="rating" value="2" /><label for="star2"
+                                title="2 stars"><i class="fa-solid fa-star"></i></label>
+                            <input type="radio" id="star1" name="rating" value="1" /><label for="star1"
+                                title="1 star"><i class="fa-solid fa-star"></i></label>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Your Name</label>
+                        <input type="text" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Review Title</label>
+                        <input type="text" placeholder="Great Read!" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Your Review</label>
+                        <textarea rows="5" placeholder="Write your review here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Submit Review</button>
+                    <a href="product-patient-en.html"
+                        style="display: block; text-align: center; margin-top: 15px; color: #555;">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 BookStore. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
