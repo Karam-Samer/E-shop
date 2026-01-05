@@ -105,6 +105,29 @@ I was responsible for the **Behavioral Analysis** and **Documentation** phase:
 
 ---
 
+<a id="repository-structure"></a>
+## 📂 Repository Structure
+
+```
+Diagrams/                → UML diagrams and system models
+sequence-descriptions/   → Detailed sequence diagram explanations
+HTML/                    → Frontend structure
+CSS/                     → Styling files
+```
+
+---
+
+<a id="conclusion"></a>
+## ✅ Conclusion
+
+This project provides a comprehensive UML-based analysis of an online BookStore system, focusing on system behavior, structure, and interaction flows.
+It serves as a strong academic reference for **Software Engineering**, **System Analysis**, and **UML Design**.
+
+> **Keywords:** UML 2.5, Sequence Diagrams, Use Case Analysis, System Analysis, Software Engineering, Web Systems
+
+---
+
+<a id="gallery"></a>
 ## 🎨 Project Diagram Gallery
 
 <details>
